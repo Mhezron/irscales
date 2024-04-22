@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>irscales</title>
+</head>
+<body>
+    
+    <div class="heading">
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Clients</a></li>
+                <li><a href="#">Contact Us</a></li>
+                
+            </ul>
+            <ul>
+                <li class="logo"><a href="#"><img src="./assets/images/logo.svg" alt=""> </a></li>
+                <li class="hideOnMobile"><a href="./index.html">Home</a></li>
+                <li class="pdropdown hideOnMobile" >
+                    <a href="./index.html">Products</a>
+                    <div class="dropdown-content">
+                        <a href="./assets/pages/weighbridges.html">Weighbridges</a>
+                        <a href="./assets/pages/industrial.html">Industrial Scale</a>
+                        <a href="./assets/pages/retail.html">Retail scales</a>
+                        <a href="./assets/pages/medical.html">Medical Scales</a>
+                        <a href="./assets/pages/analytical.html">Analytical Scales</a>
+                        <a href="./assets/pages/counter.html">Counter Scales</a>
+                        <a href="./assets/pages/software.html">Softwares</a>
+                        <a href="./assets/pages/spares.html">Spares and Accessories</a>
+                    </div>
+                </li>
+                <li class="hideOnMobile"><a href="/assets/pages/about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="./assets/pages/clientele.html">Our Clients</a></li>
+                <li class="hideOnMobile"><a href="./assets/pages/contacts.html">Contact Us</a></li>
+                <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="carousel">
+        <div class="carousel-item">
+            <div class="slide-image"><img src="./assets/images/wb1.jpg" alt=""> </div>
+        </div>
+        <div class="carousel-item">
+            <div class="slide-image"><img src="./assets/images/truck.jpg" alt=""></div>
+        </div>
+        <div class="carousel-item">
+            <div class="slide-image"><img src="./assets/images/sijui.jpg" alt=""></div>
+        </div>
+        <div class="carousel-item">
+            <div class="slide-image"><img src="./assets/images/industrial.jpg " alt=""></div>
+        </div>
+    </div>
+
+
+    <div class="card-container">
+        <div class="card">
+            <img src="./assets/images/wb1.jpg" alt="">
+            <div class="card-content">
+                <h6>WeighbridgeS</h6>
+                <p> There are many variations of passages of Lorem Ipsum available, 
+                    but the majority have suffered</p>
+                    <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/images/floorscale.jpg" alt="">
+            <div class="card-content">
+                <h6>Platform scales</h6>
+                <p> There are many variations of passages of Lorem Ipsum available, 
+                    but the majority have suffered 
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/images/giropes.avif" alt="">
+            <div class="card-content">
+                <h6>Weight indicators</h6>
+                <p> There are many variations of passages of Lorem Ipsum available, 
+                    but the majority have suffered</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/images/animal1.png" alt="">
+            <div class="card-content">
+                <h6>Animal Scales</h6>
+                <p> There are many variations of passages of Lorem Ipsum available, 
+                    but the majority have suffered</p>
+                    <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="slide-container">
+        <span class="slider-span" id="slider-span1"></span>
+        <span class="slider-span" id="slider-span2"></span>
+        <span class="slider-span" id="slider-span3"></span>
+        <span class="slider-span" id="slider-span4"></span>
+        <span class="slider-span" id="slider-span5"></span>
+        <span class="slider-span" id="slider-span6"></span>
+
+        <div class="image-slider">
+            <div class="slides-div" id="slide-1">
+                <img src="./assets/images/inda.jpg" alt="" class="img" id="img1">
+                <a href="#slider-span1" class="button" id="button-1"></a>
+            </div>
+            <div class="slides-div" id="slide-2">
+                <img src="./assets/images/industrial.jpg" alt="" class="img" id="img2">
+                <a href="#slider-span2" class="button" id="button-2"></a>
+            </div>
+            <div class="slides-div" id="slide-3">
+                <img src="./assets/images/lab.jpg" alt="" class="img" id="img3">
+                <a href="#slider-span3" class="button" id="button-3"></a>
+            </div>
+            <div class="slides-div" id="slide-4">
+                <img src="./assets/images/sijui.jpg" alt="" class="img" id="img4">
+                <a href="#slider-span4" class="button" id="button-4"></a>
+            </div>
+            <div class="slides-div" id="slide-5">
+                <img src="./assets/images/inda.jpg" alt="" class="img" id="img5">
+                <a href="#slider-span5" class="button" id="button-5"></a>
+            </div>
+            <div class="slides-div" id="slide-6">
+                <img src="./assets/images/lab.jpg" alt="" class="img" id="img6">
+                <a href="#slider-span6" class="button" id="button-6"></a>
+            </div>    
+            </div>
+        </div>
+    </div>
+
+
+    <div class="logos">
+        <h3>Clientele</h3>
+        <div class="logos-slide">
+            <img src="./assets/images/bajaber.png" alt="">
+            <img src="./assets/images/bamburi cement.jpg" alt="">
+            <img src="./assets/images/c dorman.png" alt="">
+            <img src="./assets/images/gilanis.png" alt="">
+            <img src="./assets/images/Nairobi-City-County.png" alt="">
+            <img src="./assets/images/oil libya.jpeg" alt="">
+            <img src="./assets/images/pembe.jpeg" alt="">
+            <img src="./assets/images/tononoka.jpg" alt="">
+            <img src="./assets/images/total.jpeg" alt="">
+            <img src="./assets/images/tropikal.jpeg" alt="">
+        </div>
+        <div class="logos-slide">
+            <img src="./assets/images/bajaber.png" alt="">
+            <img src="./assets/images/bamburi cement.jpg" alt="">
+            <img src="./assets/images/c dorman.png" alt="">
+            <img src="./assets/images/gilanis.png" alt="">
+            <img src="./assets/images/Nairobi-City-County.png" alt="">
+            <img src="./assets/images/oil libya.jpeg" alt="">
+            <img src="./assets/images/pembe.jpeg" alt="">
+            <img src="./assets/images/tononoka.jpg" alt="">
+            <img src="./assets/images/total.jpeg" alt="">
+            <img src="./assets/images/tropikal.jpeg" alt="">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="country">
+        <h3>Countries</h3>
+        <div class="country-slides">
+            <img src="./assets/images/flags/ethiopia.png" alt="">
+            <img src="./assets/images/flags/kenya.webp" alt="">
+            <img src="./assets/images/flags/rwanda.webp" alt="">
+            <img src="./assets/images/flags/ssudan.png" alt="">
+            <img src="./assets/images/flags/tanzania.webp" alt="">
+            <img src="./assets/images/flags/uganda.png" alt="">
+            <img src="./assets/images/flags/sleone.png" alt="">
+        </div>
+        <div class="country-slides">
+            <img src="./assets/images/flags/ethiopia.png" alt="">
+            <img src="./assets/images/flags/kenya.webp" alt="">
+            <img src="./assets/images/flags/rwanda.webp" alt="">
+            <img src="./assets/images/flags/ssudan.png" alt="">
+            <img src="./assets/images/flags/tanzania.webp" alt="">
+            <img src="./assets/images/flags/uganda.png" alt="">
+            <img src="./assets/images/flags/sleone.png" alt="">
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="/weighbridges.html">Weighbridge Scales</a></li>
+                        <li><a href="/industrial.html">Industrial Scales</a></li>
+                        <li><a href="/retail.html">Retail Scales</a></li>
+                        <li><a href="/medical.html">Medical Scales</a></li>
+                        <li><a href="/analytical.html">Analytical Scales</a></li>
+                        <li><a href="/counter.html">Counter Scales</a></li>
+                        <li><a href="/software.html">Softwares</a></li>
+                        <li><a href="/spares.html">Spares and Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/index.html">Products</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./clientele.html">Our Clients</a></li>
+                        <li><a href="./contacts.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="small">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-12">
+                    <p class="copyright-text">Copyright @2024 All Rights Reserved by
+                    <a href="#"><span class="logo">IRSCALES</span></a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="https://www.instagram.com/irscales/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
