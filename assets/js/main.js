@@ -15,11 +15,11 @@ window.onload = function () {
 
     function addActive(slide) { 
         slide.classList.add('active'); 
-    } 
+    }
 
     function removeActive(slide) { 
         slide.classList.remove('active'); 
-    } 
+    }
 
     addActive(slides[0]); 
     setInterval(function () { 
